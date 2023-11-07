@@ -1,0 +1,8 @@
+new_list = []
+for letter in 'spam':
+   for num in range(4):
+       new_list.append((letter,num))
+print(new_list)
+
+new_list = [(letter,num) for letter in'spam' for num in range(4)]
+print(new_list)
